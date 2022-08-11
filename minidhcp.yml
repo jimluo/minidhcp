@@ -1,0 +1,24 @@
+restport: 36062
+ifname: eth0
+serverid: 10.10.10.1
+staff:
+    ipstart: 10.10.10.100
+    ipstop: 10.10.10.200
+    dns: 8.8.8.8
+    router: 192.168.1.1
+    netmask: 255.255.255.0
+    leasetime: 3600s
+guest:
+    ipstart: 192.168.3.1
+    ipstop: 192.168.3.252
+    dns: 8.8.8.8
+    router: 192.168.1.1
+    netmask: 255.255.255.0
+    leasetime: 3600s
+boss:
+    ipstart: 10.10.10.100
+    ipstop: 10.10.10.200
+    dns: 8.8.8.8
+    router: 192.168.1.1
+    netmask: 255.255.255.0
+    leasetime: 3600s
